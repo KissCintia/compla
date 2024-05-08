@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8">
+    <title>Sinto Dolgozók</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">        
+  </head>
+  <body>
+    <div class="container">
+      <h1>Panaszbejelentés</h1>
+          <div>
+            <label for="complainant" class="form-label">A panasz bejelentő neve</label>
+            <input type="text" id="complainant" class="form-control">
+          </div>
+          <div>
+            <label for="description" class="form-label">A panasz leírása</label>
+            <input type="text" id="description" class="form-control">
+          </div>
+          
+          <div class="input">
+            <label for="products" class="form-label">Termék amit érint a panasz</label>
+            <input type="text" id="products" class="form-control">
+          </div>
+          <div class="input">
+            <label for="type" class="form-label">A panasz típusa (új, vizsgálat alatt, megoldva, lezárva)</label>
+            <input type="text" id="type" class="form-control">
+          </div>
+          <button type="button" class="btn btn-primary mt-2" id="mentesButton">Mentés</button>
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Id</th>
+                <th>Név</th>
+                <th>Leírás</th>
+                <th>Termék</th>
+                <th>Állapot</th>
+              </tr>
+            </thead>
+            <tbody id="panaszBody">
+    
+            </tbody>
+          </table>
+        </div>
+      <script src="bootstrap.js"></script>
+      <script type="module" src="app.js"></script>
+    </div>
+  </body>
+</html>
+
