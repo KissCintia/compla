@@ -1,3 +1,13 @@
+/*
+* File: app.js
+* Author: Kiss Cintia
+* Copyright: 2024, Kiss Cintia
+* Group: Szoft I-2-N
+* Date: 2024-05-08
+* Github: https://github.com/KissCintia/
+* Licenc: GNU GPL
+*/
+
 const doc = {
     panaszBody: document.querySelector("#panaszBody"),
     complainantInput: document.querySelector('#complainant'),
